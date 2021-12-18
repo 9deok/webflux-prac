@@ -8,3 +8,10 @@ spring:
     mongodb:
       url : mongodb://127.0.0.1:27017
       database : webflux
+
+  thymeleaf:
+    cache: false
+
+logging:
+  level:
+    web: DEBUG
