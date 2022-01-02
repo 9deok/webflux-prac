@@ -1,3 +1,5 @@
+server:
+  port: 8080
 spring:
   webflux:
     hiddenmethod:
@@ -15,3 +17,8 @@ spring:
 logging:
   level:
     web: DEBUG
+
+management:
+  endpoint:
+    health:
+      show-details: always
