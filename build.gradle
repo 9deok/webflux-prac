@@ -18,6 +18,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
 	implementation 'org.mongodb:mongodb-driver-sync'
+	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-amqp', version: '2.6.2'
 	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version: '2.6.2'
 	testImplementation group: 'io.projectreactor.tools', name: 'blockhound', version: '1.0.6.RELEASE'
 	compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.22'
